@@ -4,7 +4,7 @@ from app.handlers import router
 
 
 async def main():
-    bot = Bot(token="7469695246:AAEGMd9TlZdvpn0bPogqGiBqF7BCiyV5eZc")
+    bot = Bot(token="key:value")
     dp = Dispatcher()
     dp.include_router(router)
     await bot.delete_webhook(drop_pending_updates=True)
